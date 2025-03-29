@@ -1,0 +1,222 @@
+/* Colors and fonts */
+
+body {
+ background: #FDEAE7; /* Pastel pink */
+    color: #3A3A3A; /* Dark gray text for readability */
+font-family: .barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+;
+font-size: 18px;
+font-weight: light;
+
+}
+
+h1, h2, h3
+{
+Color: #3A7D44;
+font-family: .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+;
+font-size: 32px;	
+}
+
+ h1
+{
+Color: #3D8D7A;
+font-size: 32px;
+font-weight: 900;	
+}
+
+h2
+{
+Color: #3D8D7A;
+font-size: 32px;
+font-weight: 300;	
+}
+
+a{
+	font-family: bebas-neue-regular;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #DF6D14;
+}
+a:hover {
+	color: #3D8D7A;
+}
+
+/*Customer design with class*/
+
+.container {
+width: 700px;
+margin: 40px auto;	
+}
+
+@media (max-width: 760px) {
+	.container {
+    width: 600px;
+    }
+}
+
+
+@media (max-width: 500px) {
+	.container {
+    width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #DF6D14;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: #3D8D7A;
+    color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline-block; /* Ensures proper horizontal alignment */
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #DF6D14;
+}
+
+.list-inline i:hover {
+	color: #3D8D7A;
+}
+
+#introduction p {
+	margin: 40px;
+}
